@@ -1,0 +1,234 @@
+:root {
+  --bcg-color: #ffffff;
+  --bcg-color-secondary: #f5f4fa;
+  --dark-bcg-color: #2f303a;
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --text-color-secondary: #757575;
+  --regular-text-color: #000000;
+  --btn-hover-color: #188ce8;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--bcg-color);
+  color: var(--main-text-color);
+}
+
+/* HEADER */
+.logo {
+  color: var(--regular-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo:visited {
+  color: var(--regular-text-color);
+}
+
+.logo-accent,
+.logo-accent:visited {
+  color: var(--accent-color);
+}
+
+.nav-menu {
+  font-weight: 500; 
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu,
+.nav-contacts,
+.address-info,
+.benefits,
+.work-list,
+.team-list,
+.filters,
+.works-catalog {
+  list-style-type: none;
+}
+
+.nav-item{
+  color: inherit;
+}
+
+.nav-item,
+.works-link {
+  text-decoration: none;
+}
+
+.nav-item:visited {
+  color: inherit;
+}
+.nav-item:hover,
+.nav-item:focus,
+.current.nav-item {
+  color: var(--accent-color);
+}
+
+.contacts {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-main .contacts {
+  font-weight: 500;
+  color: var(--text-color-secondary);
+  text-decoration: none;
+}
+
+/* MAIN PAGE */
+.hero {
+  background-color: var(--dark-bcg-color);
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bcg-color);
+}
+
+.main-btn {
+  background-color: var(--accent-color);
+  color: var(--bcg-color);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--btn-hover-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.benefits-item {
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  color: var(--text-color-secondary);
+  text-transform: none;
+  line-height: 1.7;
+}
+
+.section-heading {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team {
+  background-color: var(--bcg-color-secondary);
+}
+.team-member {
+  background-color: var(--bcg-color);
+}
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.member-position {
+  color: var(--text-color-secondary);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer-main {
+  background-color: var(--dark-bcg-color);
+}
+
+.footer-main .contacts {
+  color: var(--bcg-color);
+  opacity: 0.6;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: var(--bcg-color);
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.footer-main .logo {
+  color: var(--bcg-color);
+}
+
+.email:hover,
+.email:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+  opacity: 1;
+}
+
+/* PORTFOLIO */
+
+.btn-filters {
+  color: inherit;
+  background-color: var(--bcg-color-secondary);
+  border: 0;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-filters:hover,
+.btn-filters:focus {
+  background-color: var(--accent-color);
+  color: var(--bcg-color);
+}
+
+.works-title {
+  color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-text {
+  color: var(--text-color-secondary);
+  font-size: 16px;
+  line-height: 1.88;
+}
