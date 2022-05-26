@@ -388,6 +388,7 @@ ul {
   margin-bottom: 0;
 }
 .text-wrapper{
+  padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -399,9 +400,9 @@ ul {
 }
 
 .works-title {
-  margin-right: 24px;
+  /* margin-right: 24px; */
   margin-bottom: 4px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   color: var(--main-text-color);
   font-size: 18px;
   line-height: 2;
@@ -409,9 +410,9 @@ ul {
 }
 
 .works-text {
-  margin-right: 24px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  /* margin-right: 24px; */
+  /* margin-bottom: 20px; */
+  /* margin-left: 24px; */
 
   color: var(--text-color-secondary);
   font-size: 16px;
