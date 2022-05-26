@@ -239,6 +239,10 @@ ul {
   flex-basis: calc((100% - 90px) / 3);
 }
 
+.work-items .img{
+  display: block;
+}
+
 .section-heading {
   margin-bottom: 50px;
   font-size: 36px;
